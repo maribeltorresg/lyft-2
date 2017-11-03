@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    margin: auto;
+    width: 1200px;
+}
+img {
+    width: 100%;
+}
+/* Estilos del header */
+header .logo {
+    display: inline-block;
+    margin-top: 20px; 
+    width: 100px;
+}
+header .logo img {
+    display: block;
+    width: 100%;
+}
+nav {
+    display: inline-block;
+    margin-left: 40%;
+    position: relative;
+    top: -30px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+nav ul li  a {
+    color: #000;
+    text-decoration: none;
+}
+nav ul li  a:hover {
+    color: #ea0b8c;
+}
+/* Estilos seccion Hero */
+.hero {
+    background-image: url(../assets/images/hero.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+}
+.hero .sing-up {
+    background-color: #fff;
+    float: right;
+    padding: 64px;
+    width: 40%;
+}
+.sing-up h1 {
+    color: #352384;
+    font-size: 40px; 
+    text-transform: uppercase;
+}
+.sing-up > p {
+    color: #352384;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.sing-up form input {
+    border: none;
+    border-bottom: 1px solid #352384;
+    line-height: 5;
+    outline: none;
+    width: 100%;
+}
+.sing-up button {
+    background-color: #ff00bf;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 15px 20px  15px 0;
+    padding: 15px 15px; 
+}
+.sing-up a {
+    color: #728099;
+}
+.sing-up .links .paragraphs {
+    color: #728099;
+    font-size: 10px;
+}
+.sing-up .links a {
+    color: #ff00bf;
+    text-decoration: none;
+}
+/* Estilos seccion information */
+.information {
+    background: linear-gradient(#76278f,#2b1e66);
+    color: #fff;
+    padding: 60px;
+    overflow: auto;
+}
+.box-text {
+    display: inline-block;
+    margin-left: 15%;
+}
+.information .text {
+    margin: 24px 16px;
+}
+.information .text h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.information .text p {
+    margin: 15px 0;
+}
+.information .phone {
+    float: right;
+    margin-right: 15%;
+    width: 450px;   
+}
+/* Estilos seccion info-video*/
+.info-video .info-text {
+    display: inline-block;
+    width: 30%;
+}
+.info-video video {
+    width: 60%;
+}
