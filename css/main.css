@@ -13,10 +13,15 @@ img {
     width: 100%;
 }
 /* Estilos del header */
+header {
+    background-color: #1F0F37;
+    position: fixed;
+    width: 100%;
+}
 header .logo {
     display: inline-block;
     margin-top: 20px; 
-    width: 100px;
+    width: 80px;
 }
 header .logo img {
     display: block;
@@ -34,11 +39,16 @@ nav ul li {
     margin: 20px;
 }
 nav ul li  a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 nav ul li  a:hover {
     color: #ea0b8c;
+}
+nav ul li:last-child {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 10px 12px ;
 }
 /* Estilos seccion Hero */
 .hero {
@@ -97,12 +107,11 @@ nav ul li  a:hover {
 .information {
     background: linear-gradient(#76278f,#2b1e66);
     color: #fff;
-    padding: 60px;
+    padding: 20px;
     overflow: auto;
 }
 .box-text {
     display: inline-block;
-    margin-left: 15%;
 }
 .information .text {
     margin: 24px 16px;
@@ -116,14 +125,31 @@ nav ul li  a:hover {
 }
 .information .phone {
     float: right;
-    margin-right: 15%;
     width: 450px;   
 }
 /* Estilos seccion info-video*/
-.info-video .info-text {
-    display: inline-block;
+.info-video .text-video {
+    overflow: auto;
+    width: 100%;
+}
+.text-video .info-text {
+    padding: 30px 45px;
     width: 30%;
 }
-.info-video video {
+.info-text h3 {
+    margin:5px 0 10px;
+    text-transform: uppercase;
+}
+iframe {
+    height: 500px;
     width: 60%;
+}
+.video-right {
+    float: right;
+}
+.text-left {
+    float: left;
+}
+.text-right {
+    float: right;
 }
